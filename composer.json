@@ -1,0 +1,47 @@
+{
+    "name": "luyadev/luya-kickstarter",
+    "description": "The kickstarter for a new LUYA application project.",
+    "type": "project",
+    "license":"MIT",
+    "require": {
+        "luyadev/luya-core" : "^1.0@beta",
+        "luyadev/luya-module-admin" : "^1.0@beta",
+        "luyadev/luya-module-cms" : "^1.0@beta",
+        "luyadev/luya-module-cmsadmin" : "^1.0@beta",
+        "luyadev/luya-module-contactform": "^1.0@beta",
+        "luyadev/luya-module-newsadmin": "^1.0@beta",
+        "luyadev/luya-module-news": "^1.0@beta",
+        "luyadev/luya-module-styleguide": "^1.0@beta",
+        "luyadev/luya-module-crawleradmin": "^1.0@beta",
+        "luyadev/luya-module-crawler": "^1.0@beta",
+        "luyadev/luya-module-errorapi": "^1.0@beta",
+        "luyadev/luya-module-galleryadmin": "^1.0@beta",
+        "luyadev/luya-module-gallery": "^1.0@beta",
+        "luyadev/luya-module-exporter": "^1.0@beta"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii" : "^2.0",
+        "yiisoft/yii2-debug" : "^2.0"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::postCreateProject"
+        ]
+    },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+			"setPermission": [
+				{
+					"public_html/assets": "0777",
+					"public_html/storage": "0777"
+				}
+			]
+		},
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

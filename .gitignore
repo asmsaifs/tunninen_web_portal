@@ -1,0 +1,35 @@
+# netbeans
+/nbproject
+
+# PHPStorm
+.idea/
+
+# eclipse
+.buildpath
+.project
+.settings
+
+# composer vendor dir
+/vendor
+
+# composer itself
+composer.phar
+
+# mac DS_Store files
+.DS_Store
+
+/bin
+
+# public files
+#/public_html/assets
+#/public_html/storage
+
+# project config
+/configs/localdb.php
+/configs/server.php
+
+# SASS
+/resources/.sass-cache
+
+# Compiled files
+/resources/local/
