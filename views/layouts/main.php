@@ -91,7 +91,7 @@ use cms\widgets\LanguageSwitcher;
                         <p>IT Tunninen Oy 
 Business ID 2056618-3 
 Huoltopiste Rekolantie 62, 2nd floor, 
-01400 Vanta</p>
+01400 Vantaa</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>

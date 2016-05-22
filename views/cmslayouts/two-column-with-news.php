@@ -13,7 +13,7 @@
 				</div>-->
                 <div class="widget">
                 	<h4 class="widgetheading">About Us</h5>
-                    <p>Companies comprehensive ICT service solutions for cyber security software solutions. Coordinated systems save costs and make it easier to tiedonsaantia- and distribution. Check out our services, and to extract the best solutions. As a small and agile player will serve excellently. We would like to help, <a href="contact#contactform"> please contact us!</a></p>
+                    <p>Companies comprehensive ICT service solutions for cyber security software solutions. Coordinated systems save costs and make it easier to tiedonsaantia- and distribution. Check out our services, and to extract the best solutions. As a small and agile player will serve excellently. We would like to help, <a href="contact"> please contact us!</a></p>
 				</div>
                 <div class="widget">
 					<h4 class="widgetheading">Latest news</h5>
