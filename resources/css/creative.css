@@ -77,12 +77,14 @@ aside {
 }
 
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
+    /*border-color: rgba(34,34,34,.05);*/
+	background-color: #000;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
+    /*background-color: #fff;*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+	border-color: #000;
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -90,11 +92,13 @@ aside {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
+	margin-top: -9px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;
+	
 }
 
 .navbar-default .nav > li>a,
@@ -231,8 +235,10 @@ form#commentform textarea {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        /*border-color: rgba(255,255,255,.3);
+		
+        background-color: transparent;*/
+		background-color:#000;
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -256,7 +262,8 @@ form#commentform textarea {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        /*background-color: #fff;*/
+		background-color:#000;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -271,7 +278,7 @@ form#commentform textarea {
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        color: #FFF;
     }
 
     .navbar-default.affix .nav > li>a:hover,
@@ -487,7 +494,7 @@ article img.pull-right, article .align-right{
 20. Spacer, margin
 ============================= */
 
-header {    
+header {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -525,6 +532,7 @@ header .header-content .header-content-inner p {
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
+
 @media(min-width:768px) {
     header {
         min-height: 100%;
@@ -829,11 +837,3 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
-
-#header {
-    height:50px;
-    /*background-color: #4a423f;*/
-    background-image: url(../img/headerimg.jpg);
-    background-position: top;
-}
-img { max-width: 100%; }

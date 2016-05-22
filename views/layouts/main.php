@@ -27,7 +27,7 @@ use cms\widgets\LanguageSwitcher;
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><?php echo Yii::$app->siteTitle;?></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><?php //echo Yii::$app->siteTitle;?> <img src="img/small_logo.png" width="106" height="34" alt="Logo"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
