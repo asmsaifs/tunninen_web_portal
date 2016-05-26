@@ -12,28 +12,82 @@ use cms\widgets\LanguageSwitcher;
         <meta name="author" content="">
         <title><?php echo Yii::$app->siteTitle;?> &mdash; <?php echo $this->title; ?></title>
         <?php $this->head() ?>
+        <script>
+		$(document).ready(function() {
+  
+  var num = 10; //number of pixels before modifying styles
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > num) {
+        $('.navbar-default').addClass('affix-top');
+    } else {
+        $('.navbar-default').removeClass('affix-top');
+    }
+})
+
+});
+        </script>
     </head>
     <body id="page-top">
 
     <?php $this->beginBody() ?>
     <div <?=(Yii::$app->menu->home)?'id="header"':'';?>>
-        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+    <div class="container-fluid" style="background-color:#233140;color:#fff;height:70px; ">
+       <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><?php //echo Yii::$app->siteTitle;?> <img src="img/small_logo.png" width="106" height="34" alt="Logo"></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><?php //echo Yii::$app->siteTitle;?> <img src="img/small_logo_new.png" width="42" height="34" alt="Logo"></a><nav class="navbar-default"><ul class="nav navbar-nav navbar-left"><div class="slogan">3600&deg; ICT Company</div></ul></nav>
+            </div>
+       <nav class="navbar-default">     
+
+       <ul class="nav navbar-nav navbar-right">
+                    <?php foreach (Yii::$app->menu->find()->where(['parent_nav_id' => 0, 'container' => 'default'])->all() as $item): ?>
+                        <li <?php if ($item->isActive): ?> class="active"<?php endif;?>>
+                            <a href="<?php echo $item->link; ?>"><?php echo $item->title; ?></a>
+                            <?php if ($item->hasChildren()): ?>
+                            <ul>
+                                <?php foreach ($item->children as $child): ?>
+                                    <li <?php if ($child->isActive): ?> class="active"<?php endif;?>><a href="<?php echo $child->link; ?>">&raquo; <?php echo $child->title; ?></a></li>
+                                    
+                                    <?php if ($child->hasChildren()): ?>
+                                    <ul>
+                                        <?php foreach ($child->children as $grandChild): ?>
+                                            <li <?php if ($grandChild->isActive): ?> class="active"<?php endif;?>><a href="<?php echo $grandChild->link; ?>">&raquo; <?php echo $grandChild->title; ?></a>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                    <?php endif; ?>
+                                    
+                                <?php endforeach; ?>
+                            </ul>
+                            <?php endif; ?>
+                        </li>
+                    <?php endforeach; ?>
+                    </ul>
+
+       </nav>
+	</div>
+  
+        <nav class="navbar navbar-default" data-spy="affix" data-offset-top="60">
+        <!--<nav id="mainNav" class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="197">-->
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display navbar-fixed-top-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>                
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <?php foreach (Yii::$app->menu->find()->where(['parent_nav_id' => 0, 'container' => 'default'])->all() as $item): ?>
+                <ul class="nav navbar-nav navbar-left">
+                    <?php foreach (Yii::$app->menu->find()->where(['parent_nav_id' => 0, 'container' => 'second-menu'])->all() as $item): ?>
                         <li <?php if ($item->isActive): ?> class="active"<?php endif;?>>
                             <a href="<?php echo $item->link; ?>"><?php echo $item->title; ?></a>
                             <?php if ($item->hasChildren()): ?>
