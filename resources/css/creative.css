@@ -91,7 +91,7 @@ aside {
 
 .navbar-default {
     /*border-color: rgba(34,34,34,.05);*/
-	background-color: #233140;
+	background-color: #222;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     /*background-color: #fff;*/
     -webkit-transition: all .35s;
@@ -106,8 +106,12 @@ aside {
 
 .slogan{
 color:#019ad3;
-font-size:10px;
+font-size:11px;
 font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+text-decoration:none;
+position:absolute;
+top:32px;
+left:85px;
 }
 
  .navbar {
@@ -266,7 +270,7 @@ form#commentform textarea {
         /*border-color: rgba(255,255,255,.3);
 		
         background-color: transparent;*/
-		background-color:#233140;
+		background-color:#222;
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -291,7 +295,7 @@ form#commentform textarea {
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         /*background-color: #fff;*/
-		background-color:#233140;
+		background-color:#222;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {

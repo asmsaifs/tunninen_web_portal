@@ -32,7 +32,7 @@ $(window).bind('scroll', function () {
 
     <?php $this->beginBody() ?>
     <div <?=(Yii::$app->menu->home)?'id="header"':'';?>>
-    <div class="container-fluid" style="background-color:#233140;color:#fff;height:70px; ">
+    <div class="container-fluid" style="background-color:#222;color:#fff;height:60px; ">
        <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -40,7 +40,7 @@ $(window).bind('scroll', function () {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><?php //echo Yii::$app->siteTitle;?> <img src="img/small_logo_new.png" width="42" height="34" alt="Logo"></a><nav class="navbar-default"><ul class="nav navbar-nav navbar-left"><div class="slogan">3600&deg; ICT Company</div></ul></nav>
+                <a class="navbar-brand page-scroll" href="#page-top"><?php //echo Yii::$app->siteTitle;?> <img src="img/small_logo_new.png" width="42" height="34" alt="Logo" style="margin-left:12px;"></a><div class="slogan">360&deg; ICT Company</div>
             </div>
        <nav class="navbar-default">     
 
@@ -168,7 +168,7 @@ Huoltopiste Rekolantie 62, 2nd floor,
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About tunninen oy</h3>
+                        <h3>About Tunninen Oy</h3>
                         <p>Companies comprehensive ICT service solutions for cyber security software solutions. Coordinated systems save costs and make it easier to tiedonsaantia- and distribution. </p>
                     </div>
                 </div>
