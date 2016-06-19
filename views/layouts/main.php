@@ -10,7 +10,7 @@ use cms\widgets\LanguageSwitcher;
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title><?php echo Yii::$app->siteTitle;?> &mdash; <?php echo $this->title; ?></title>
+        <title><?php echo Yii::$app->siteTitle.": 360&deg; ICT Company";?> &mdash; <?php echo $this->title; ?></title>
         <?php $this->head() ?>
         <script>
 		$(document).ready(function() {
@@ -178,7 +178,7 @@ Huoltopiste Rekolantie 62, 2nd floor,
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; <?php echo Yii::$app->siteTitle.' '.date("Y");?>
+                        Copyright &copy; <?php echo 'Tunninen Oy '.date("Y");?>
                     </div>
                 </div>
             </div>
