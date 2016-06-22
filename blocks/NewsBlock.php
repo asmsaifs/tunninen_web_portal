@@ -94,6 +94,6 @@ class NewsBlock extends \cmsadmin\base\Block
      */
     public function twigAdmin()
     {
-        return '<p>My Admin Twig of this Block</p>';
+        return '<p>News Block</p>';
     }
 }
