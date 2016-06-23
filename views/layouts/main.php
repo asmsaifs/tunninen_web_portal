@@ -1,5 +1,5 @@
 <?php
-use cms\widgets\LanguageSwitcher;
+//use cms\widgets\LanguageSwitcher;
 ?>
 <?php $this->beginPage(); ?>
 <!DOCTYPE html>
@@ -12,21 +12,7 @@ use cms\widgets\LanguageSwitcher;
         <meta name="author" content="">
         <title><?php echo Yii::$app->siteTitle.": 360&deg; ICT Company";?> &mdash; <?php echo $this->title; ?></title>
         <?php $this->head() ?>
-        <script>
-		$(document).ready(function() {
-  
-  var num = 10; //number of pixels before modifying styles
-
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > num) {
-        $('.navbar-default').addClass('affix-top');
-    } else {
-        $('.navbar-default').removeClass('affix-top');
-    }
-})
-
-});
-        </script>
+        
     </head>
     <body id="page-top">
 
