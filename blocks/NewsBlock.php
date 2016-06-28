@@ -67,7 +67,7 @@ class NewsBlock extends \cmsadmin\base\Block
         </div>
     </aside>
     
-    <section id="services" style="padding-top:0px !important;color:#777777;background-color: #fde4a8;">
+    <section id="services" style="padding-top:0px !important;color:#777777;background-color: #fddb8b;">
         
         <div class="container">
             <div class="row">';
