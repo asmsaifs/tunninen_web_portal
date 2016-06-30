@@ -26,7 +26,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><?php //echo Yii::$app->siteTitle;?> <img src="img/small_logo_new.png" width="42" height="34" alt="Logo" style="margin-left:12px;"></a><div class="slogan">Tunninen Oy</div>
+                <a class="navbar-brand page-scroll" href="#page-top"><?php //echo Yii::$app->siteTitle;?> 
+                    <img src="<?=\Yii::$app->request->BaseUrl?>/img/small_logo_new.png" width="42" height="34" alt="Logo" style="margin-left:12px;"></a><div class="slogan">Tunninen Oy</div>
             </div>
        <nav class="navbar-default">     
 

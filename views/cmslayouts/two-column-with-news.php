@@ -18,13 +18,17 @@
                 <div class="widget">
 					<h4 class="widgetheading">Latest news</h5>
 					<ul class="recent">
-						<?php foreach(\newsadmin\models\Article::find()->all() as $item): ?>
-						<li>
-						<img src="<?=Yii::$app->storage->getImage($item->image_id)->source;?>" class="pull-left" alt="" />
-						<h6><a href="#<?php //echo $item->getDetailUrl(); ?>"><?=$item->title?></a></h6>
-						<p><?=$item->text;?></p>
-						</li>												
-						<?php endforeach; ?>												
+                                            <?php foreach(\newsadmin\models\Article::find()->all() as $item): ?>
+                                            <?php
+                                                //$detail_url = \luya\helpers\Url::toManager('/news/default/detail', ['id' => $item->id, 'title' => \yii\helpers\Inflector::slug($item->title)]);
+                                                $detail_url = \Yii::$app->request->BaseUrl.'/news/'.$item->id.'/'.\yii\helpers\Inflector::slug($item->title);
+                                            ?>
+                                            <li>
+                                            <img src="<?=Yii::$app->storage->getImage($item->image_id)->source;?>" class="pull-left" alt="" />
+                                            <h6><a href="<?php echo $detail_url; ?>"><?=$item->title?></a></h6>
+                                            <p><?=$item->text;?></p>
+                                            </li>												
+                                            <?php endforeach; ?>												
 					</ul>
 				</div>
 				<!--<div class="widget">

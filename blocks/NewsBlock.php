@@ -73,11 +73,12 @@ class NewsBlock extends \cmsadmin\base\Block
             <div class="row">';
         
         foreach(\newsadmin\models\Article::find()->all() as $item){
+            $detail_url = \Yii::$app->request->BaseUrl.'/news/'.$item->id.'/'.\yii\helpers\Inflector::slug($item->title);
             $content.='<div class="col-lg-4 col-sm-6 text-center">
                     <div class="service-box">';
             $content.= '<h3>'.$item->title.'</h3>
                 <p class="text-justify">'.$item->text.'</p>';
-            $content.='<a href="#" class="btn btn-info btn-xl page-scroll">More</a>
+            $content.='<a href="'.$detail_url.'" class="btn btn-info btn-xl page-scroll">More</a>
                     </div>
                 </div>';
         }                                                                                      

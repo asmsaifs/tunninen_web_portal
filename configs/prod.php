@@ -92,6 +92,9 @@ $config = [
 
         'news' => [
             'class' => 'news\Module',
+            'assets' => [
+                'app\assets\ResourcesAsset'
+            ],
         ],
 
         'styleguide' => [
@@ -127,11 +130,11 @@ $config = [
          * mail component with the luya console command ./vendor/bin/luya health/mailer.
          */
         'mail' => [
-            'host' => null,
-            'username' => null,
-            'password' => null,
-            'from' => null,
-            'fromName' => null,
+            'host' => '203.82.207.6',
+            'username' => 'saiful.chowdhury@kdsgroup.net',
+            'password' => 'saiful123',
+            'from' => 'saiful.chowdhury@kdsgroup.net',
+            'fromName' => 'Saiful Islam',
         ],
 
         /*
@@ -194,12 +197,12 @@ $config = [
  * "yiisoft/yii2-debug" : "*"
  */
 
-/*if (YII_DEBUG) {
+if (YII_DEBUG) {
     $config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = 'yii\debug\Module';
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = 'yii\gii\Module';
-}*/
+}
 
 
 return \yii\helpers\ArrayHelper::merge($config, require('proddb.php'));

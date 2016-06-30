@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6eea2cfbc3f9635519e62fccf222cc10",
-    "content-hash": "cba3df2488173645fb2bc456b9f25d5b",
+    "hash": "bfc87a1b0079dd80785f4dbc938672ab",
+    "content-hash": "c26e3da7e409b02544b97f0f2ec64c6e",
     "packages": [
         {
             "name": "bower-asset/jquery",
@@ -355,6 +355,58 @@
             "time": "2015-11-05 12:58:44"
         },
         {
+            "name": "flowjs/flow-php-server",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flowjs/flow-php-server.git",
+                "reference": "d52900ee39dab1f16834edb1416d51db5467745d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flowjs/flow-php-server/zipball/d52900ee39dab1f16834edb1416d51db5467745d",
+                "reference": "d52900ee39dab1f16834edb1416d51db5467745d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "dev-master",
+                "league/phpunit-coverage-listener": "~1.1",
+                "mikey179/vfsstream": "v1.2.0",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Flow": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aidas Klimas",
+                    "email": "aidaskk@gmail.com"
+                }
+            ],
+            "description": "PHP library for handling chunk uploads. Works with flow.js html5 file uploads.",
+            "keywords": [
+                "chunks",
+                "file upload",
+                "flow",
+                "flow.js",
+                "html5 file upload",
+                "resumable",
+                "resumable.js",
+                "upload"
+            ],
+            "time": "2015-02-01 15:28:27"
+        },
+        {
             "name": "guzzlehttp/guzzle",
             "version": "6.2.0",
             "source": {
@@ -469,16 +521,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "31382fef2889136415751badebbd1cb022a4ed72"
+                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/31382fef2889136415751badebbd1cb022a4ed72",
-                "reference": "31382fef2889136415751badebbd1cb022a4ed72",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
+                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
                 "shasum": ""
             },
             "require": {
@@ -494,7 +546,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -523,7 +575,7 @@
                 "stream",
                 "uri"
             ],
-            "time": "2016-04-13 19:56:01"
+            "time": "2016-06-24 23:00:38"
         },
         {
             "name": "ifsnop/mysqldump-php",
@@ -579,16 +631,16 @@
         },
         {
             "name": "imagine/imagine",
-            "version": "v0.6.3",
+            "version": "v0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avalanche123/Imagine.git",
-                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d"
+                "reference": "f64ec666baaa800edcbf237db41121a569230709"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/149041d2a1b517107bfe270ca2b1a17aa341715d",
-                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/f64ec666baaa800edcbf237db41121a569230709",
+                "reference": "f64ec666baaa800edcbf237db41121a569230709",
                 "shasum": ""
             },
             "require": {
@@ -603,11 +655,6 @@
                 "ext-imagick": "to use the Imagick implementation"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-develop": "0.7-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Imagine": "lib/"
@@ -632,7 +679,7 @@
                 "image manipulation",
                 "image processing"
             ],
-            "time": "2015-09-19 16:54:05"
+            "time": "2013-07-10 17:25:36"
         },
         {
             "name": "jakeasmith/http_build_url",
@@ -672,16 +719,16 @@
         },
         {
             "name": "luyadev/luya-core",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-core.git",
-                "reference": "aef788e78e0727b79778dd2793ec40f8731ca0d1"
+                "reference": "f25fb3c2e7fa16d7e501e165a419aa538b50a8b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-core/zipball/aef788e78e0727b79778dd2793ec40f8731ca0d1",
-                "reference": "aef788e78e0727b79778dd2793ec40f8731ca0d1",
+                "url": "https://api.github.com/repos/luyadev/luya-core/zipball/f25fb3c2e7fa16d7e501e165a419aa538b50a8b4",
+                "reference": "f25fb3c2e7fa16d7e501e165a419aa538b50a8b4",
                 "shasum": ""
             },
             "require": {
@@ -716,7 +763,7 @@
                     "homepage": "https://github.com/nadar"
                 }
             ],
-            "description": "LUYA Core",
+            "description": "The LUYA core classes in addition to the Yii2 Framework",
             "homepage": "http://luya.io",
             "keywords": [
                 "luya",
@@ -725,28 +772,31 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-21 13:42:47"
+            "time": "2016-06-20 07:47:29"
         },
         {
             "name": "luyadev/luya-module-admin",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-admin.git",
-                "reference": "f466433c7ebf2801a3b7afd7dd6b662540e8ca09"
+                "reference": "58b95d237914c564a2771ee75bb646a10d2bb25f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-admin/zipball/f466433c7ebf2801a3b7afd7dd6b662540e8ca09",
-                "reference": "f466433c7ebf2801a3b7afd7dd6b662540e8ca09",
+                "url": "https://api.github.com/repos/luyadev/luya-module-admin/zipball/58b95d237914c564a2771ee75bb646a10d2bb25f",
+                "reference": "58b95d237914c564a2771ee75bb646a10d2bb25f",
                 "shasum": ""
             },
             "require": {
                 "cebe/markdown": "~1.0.0 | ~1.1.0",
-                "imagine/imagine": "^0.6.3"
+                "flowjs/flow-php-server": "^1.0",
+                "imagine/imagine": "0.5.*"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "luyadev/luya": "^1.0@dev",
+                "phpunit/phpunit": "~5.0",
+                "satooshi/php-coveralls": "~1.0"
             },
             "type": "luya-module",
             "extra": {
@@ -771,7 +821,7 @@
                     "homepage": "https://github.com/nadar"
                 }
             ],
-            "description": "Yii2 LUYA Admin",
+            "description": "Administration core module for all LUYA admin modules",
             "homepage": "http://luya.io",
             "keywords": [
                 "admin",
@@ -786,24 +836,26 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-21 13:31:03"
+            "time": "2016-06-17 19:57:21"
         },
         {
             "name": "luyadev/luya-module-cms",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-cms.git",
-                "reference": "8087cb3ef8050e9384c3cb5327ccda962d94c420"
+                "reference": "13721a7d079588922c4d146b572d89f55cbea0c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-cms/zipball/8087cb3ef8050e9384c3cb5327ccda962d94c420",
-                "reference": "8087cb3ef8050e9384c3cb5327ccda962d94c420",
+                "url": "https://api.github.com/repos/luyadev/luya-module-cms/zipball/13721a7d079588922c4d146b572d89f55cbea0c9",
+                "reference": "13721a7d079588922c4d146b572d89f55cbea0c9",
                 "shasum": ""
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "luyadev/luya": "^1.0@dev",
+                "phpunit/phpunit": "~5.0",
+                "satooshi/php-coveralls": "~1.0"
             },
             "type": "luya-module",
             "extra": {
@@ -827,7 +879,7 @@
                     "homepage": "https://github.com/nadar"
                 }
             ],
-            "description": "Yii2 LUYA Cms",
+            "description": "Frontend module to display CMS content",
             "homepage": "http://luya.io",
             "keywords": [
                 "cms",
@@ -840,20 +892,20 @@
                 "yii2",
                 "yii2-cms"
             ],
-            "time": "2016-04-21 13:31:03"
+            "time": "2016-06-14 11:51:18"
         },
         {
             "name": "luyadev/luya-module-cmsadmin",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-cmsadmin.git",
-                "reference": "f58b4df08d75099fd66258cd28893cb7c0f8ae80"
+                "reference": "26066ef0289ed7e68e35fb4a8a926ab935a9a9cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-cmsadmin/zipball/f58b4df08d75099fd66258cd28893cb7c0f8ae80",
-                "reference": "f58b4df08d75099fd66258cd28893cb7c0f8ae80",
+                "url": "https://api.github.com/repos/luyadev/luya-module-cmsadmin/zipball/26066ef0289ed7e68e35fb4a8a926ab935a9a9cc",
+                "reference": "26066ef0289ed7e68e35fb4a8a926ab935a9a9cc",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -878,7 +930,7 @@
                     "homepage": "https://github.com/nadar"
                 }
             ],
-            "description": "Yii2 LUYA CMS Admin-Module",
+            "description": "Content manager administration module",
             "homepage": "http://luya.io",
             "keywords": [
                 "cms",
@@ -891,7 +943,7 @@
                 "yii2-cms",
                 "yii2-cmsadmin"
             ],
-            "time": "2016-04-21 13:31:03"
+            "time": "2016-06-17 12:15:58"
         },
         {
             "name": "luyadev/luya-module-contactform",
@@ -948,16 +1000,16 @@
         },
         {
             "name": "luyadev/luya-module-crawler",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-crawler.git",
-                "reference": "e203dcbcc4bead33be28c481da36c6d1cb2cdac3"
+                "reference": "c468b82db05c45b659e2aead6d65fee79a321fc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-crawler/zipball/e203dcbcc4bead33be28c481da36c6d1cb2cdac3",
-                "reference": "e203dcbcc4bead33be28c481da36c6d1cb2cdac3",
+                "url": "https://api.github.com/repos/luyadev/luya-module-crawler/zipball/c468b82db05c45b659e2aead6d65fee79a321fc5",
+                "reference": "c468b82db05c45b659e2aead6d65fee79a321fc5",
                 "shasum": ""
             },
             "require": {
@@ -986,11 +1038,12 @@
                     "homepage": "https://github.com/nadar"
                 }
             ],
-            "description": "Yii2 LUYA Crawler Module",
+            "description": "An easy to use page crawler to make an internal search field on your page. The crawlermodule gather all informations about the sides on the configured domain.",
             "homepage": "http://luya.io",
             "keywords": [
                 "crawler",
                 "luya",
+                "luya-module",
                 "module",
                 "pagecrawler",
                 "php",
@@ -998,20 +1051,20 @@
                 "yii2",
                 "yii2-pagecrawler"
             ],
-            "time": "2016-04-21 10:33:11"
+            "time": "2016-06-14 11:51:18"
         },
         {
             "name": "luyadev/luya-module-crawleradmin",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-crawleradmin.git",
-                "reference": "71730128f311a3e9a4eee7cc7f1f936101915554"
+                "reference": "af6cadfcf444aab6b711daf749cd3364201f84ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-crawleradmin/zipball/71730128f311a3e9a4eee7cc7f1f936101915554",
-                "reference": "71730128f311a3e9a4eee7cc7f1f936101915554",
+                "url": "https://api.github.com/repos/luyadev/luya-module-crawleradmin/zipball/af6cadfcf444aab6b711daf749cd3364201f84ac",
+                "reference": "af6cadfcf444aab6b711daf749cd3364201f84ac",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1047,20 +1100,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-20 10:56:04"
+            "time": "2016-06-17 12:15:58"
         },
         {
             "name": "luyadev/luya-module-errorapi",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-errorapi.git",
-                "reference": "1fbace1849331041cba99e5d1e8611b879de0f2d"
+                "reference": "be0032b39e5644ea33e5b4105f7ec4f17f5f2a72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-errorapi/zipball/1fbace1849331041cba99e5d1e8611b879de0f2d",
-                "reference": "1fbace1849331041cba99e5d1e8611b879de0f2d",
+                "url": "https://api.github.com/repos/luyadev/luya-module-errorapi/zipball/be0032b39e5644ea33e5b4105f7ec4f17f5f2a72",
+                "reference": "be0032b39e5644ea33e5b4105f7ec4f17f5f2a72",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1085,30 +1138,31 @@
                     "homepage": "https://github.com/nadar"
                 }
             ],
-            "description": "Yii2 LUYA Error Api",
+            "description": "To create strong and secure website its important to know all exceptions before your customer knows the exceptions and to make sure the exception happends only once.",
             "homepage": "http://luya.io",
             "keywords": [
                 "errorapi",
                 "luya",
+                "luya-module",
                 "module",
                 "php",
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-21 10:33:11"
+            "time": "2016-06-17 12:15:58"
         },
         {
             "name": "luyadev/luya-module-exporter",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-exporter.git",
-                "reference": "4a3ee7a916ea1fb225eaca098db4f5f46bde9f24"
+                "reference": "f934f258f82c1a76230076938bc74aeee8c50b3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-exporter/zipball/4a3ee7a916ea1fb225eaca098db4f5f46bde9f24",
-                "reference": "4a3ee7a916ea1fb225eaca098db4f5f46bde9f24",
+                "url": "https://api.github.com/repos/luyadev/luya-module-exporter/zipball/f934f258f82c1a76230076938bc74aeee8c50b3b",
+                "reference": "f934f258f82c1a76230076938bc74aeee8c50b3b",
                 "shasum": ""
             },
             "require": {
@@ -1136,13 +1190,14 @@
                     "homepage": "https://github.com/nadar"
                 }
             ],
-            "description": "Yii2 LUYA Exporter Module",
+            "description": "The exporter module allows you to easy download the full databse and storage data from a project to import them local.",
             "homepage": "http://luya.io",
             "keywords": [
                 "dev",
                 "download",
                 "export",
                 "luya",
+                "luya-module",
                 "module",
                 "php",
                 "preproduction",
@@ -1151,20 +1206,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-21 10:33:11"
+            "time": "2016-06-14 11:51:18"
         },
         {
             "name": "luyadev/luya-module-gallery",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-gallery.git",
-                "reference": "9a0b721f578aebe3d59af8b90ed46f6a3e94c14d"
+                "reference": "f4d4e83cd435ec45bbf23a2b4253c37637259533"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-gallery/zipball/9a0b721f578aebe3d59af8b90ed46f6a3e94c14d",
-                "reference": "9a0b721f578aebe3d59af8b90ed46f6a3e94c14d",
+                "url": "https://api.github.com/repos/luyadev/luya-module-gallery/zipball/f4d4e83cd435ec45bbf23a2b4253c37637259533",
+                "reference": "f4d4e83cd435ec45bbf23a2b4253c37637259533",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1189,30 +1244,31 @@
                     "homepage": "https://github.com/nadar"
                 }
             ],
-            "description": "Yii2 LUYA Gallery Module",
+            "description": "The gallery module allows you create folders and collection and upload images to the collections. Its an easy way to create a gallery very quick and create your own view files.",
             "homepage": "http://luya.io",
             "keywords": [
                 "gallery",
                 "luya",
+                "luya-module",
                 "module",
                 "php",
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-07 09:17:55"
+            "time": "2016-06-14 11:51:18"
         },
         {
             "name": "luyadev/luya-module-galleryadmin",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-galleryadmin.git",
-                "reference": "3df253e796955086b877f03771ee9bc9a96c5f03"
+                "reference": "4411f68dfcf38850b2da14c14f546f781227f253"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-galleryadmin/zipball/3df253e796955086b877f03771ee9bc9a96c5f03",
-                "reference": "3df253e796955086b877f03771ee9bc9a96c5f03",
+                "url": "https://api.github.com/repos/luyadev/luya-module-galleryadmin/zipball/4411f68dfcf38850b2da14c14f546f781227f253",
+                "reference": "4411f68dfcf38850b2da14c14f546f781227f253",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1248,20 +1304,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-21 10:33:11"
+            "time": "2016-06-17 12:15:58"
         },
         {
             "name": "luyadev/luya-module-news",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-news.git",
-                "reference": "587768b23b827def212f9140cc99d272d9b52e4f"
+                "reference": "5678b380b6033bec5f153b8d8eb086387feb3ad8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-news/zipball/587768b23b827def212f9140cc99d272d9b52e4f",
-                "reference": "587768b23b827def212f9140cc99d272d9b52e4f",
+                "url": "https://api.github.com/repos/luyadev/luya-module-news/zipball/5678b380b6033bec5f153b8d8eb086387feb3ad8",
+                "reference": "5678b380b6033bec5f153b8d8eb086387feb3ad8",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1286,30 +1342,31 @@
                     "homepage": "https://github.com/nadar"
                 }
             ],
-            "description": "Yii2 LUYA News",
+            "description": "The news module will provided you a basic news system with categories and tags.",
             "homepage": "http://luya.io",
             "keywords": [
                 "luya",
+                "luya-module",
                 "module",
                 "news",
                 "php",
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-21 10:33:11"
+            "time": "2016-06-14 11:51:18"
         },
         {
             "name": "luyadev/luya-module-newsadmin",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-newsadmin.git",
-                "reference": "f30195301a1e071b255c0a2ad25328705ed23e7f"
+                "reference": "ca19067f4a93b0528174584fa1bc67ab1052fa15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-newsadmin/zipball/f30195301a1e071b255c0a2ad25328705ed23e7f",
-                "reference": "f30195301a1e071b255c0a2ad25328705ed23e7f",
+                "url": "https://api.github.com/repos/luyadev/luya-module-newsadmin/zipball/ca19067f4a93b0528174584fa1bc67ab1052fa15",
+                "reference": "ca19067f4a93b0528174584fa1bc67ab1052fa15",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1345,20 +1402,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-07 09:17:55"
+            "time": "2016-06-17 12:15:58"
         },
         {
             "name": "luyadev/luya-module-styleguide",
-            "version": "1.0.0-beta6",
+            "version": "1.0.0-beta7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-styleguide.git",
-                "reference": "c862675da110e8fac5cf6f3efea60615457ced93"
+                "reference": "3dfd89e60fa0416fa10b4f2aeb7bdfd72b4aa2f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-styleguide/zipball/c862675da110e8fac5cf6f3efea60615457ced93",
-                "reference": "c862675da110e8fac5cf6f3efea60615457ced93",
+                "url": "https://api.github.com/repos/luyadev/luya-module-styleguide/zipball/3dfd89e60fa0416fa10b4f2aeb7bdfd72b4aa2f8",
+                "reference": "3dfd89e60fa0416fa10b4f2aeb7bdfd72b4aa2f8",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1387,13 +1444,14 @@
             "homepage": "http://luya.io",
             "keywords": [
                 "luya",
+                "luya-module",
                 "module",
                 "php",
                 "styleguide",
                 "yii",
                 "yii2"
             ],
-            "time": "2016-04-07 09:17:55"
+            "time": "2016-06-01 08:40:01"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -1503,6 +1561,49 @@
                 "response"
             ],
             "time": "2015-05-04 20:22:00"
+        },
+        {
+            "name": "richardfan1126/yii2-js-register",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/richardfan1126/yii2-js-register.git",
+                "reference": "e6a49b1523942c0a861bfa9f5cf7371e3bfd94f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/richardfan1126/yii2-js-register/zipball/e6a49b1523942c0a861bfa9f5cf7371e3bfd94f9",
+                "reference": "e6a49b1523942c0a861bfa9f5cf7371e3bfd94f9",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "richardfan\\widget\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Fan",
+                    "email": "richardfan1126@gmail.com",
+                    "homepage": "https://fancy-digital.com"
+                }
+            ],
+            "description": "Yii2 widget to register JS into view",
+            "keywords": [
+                "extension",
+                "javascript",
+                "widget",
+                "yii2"
+            ],
+            "time": "2016-06-29 17:28:49"
         },
         {
             "name": "symfony/browser-kit",
