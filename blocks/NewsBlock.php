@@ -77,13 +77,7 @@ class NewsBlock extends \cmsadmin\base\Block
             $content.='<div class="col-lg-4 col-sm-6 text-center">
                     <div class="service-box">';
             //list($output)=explode("\n",wordwrap(strip_tags($item->text),10),1);
-            $limit = 100;
-            
-            //if(strlen($item->text) < $limit) {return $item->text;}
-
-            $regex = "/(.{1,$limit})\b/";
-            preg_match($regex, $item->text, $matches);
-            $output = $matches[1];
+            $output = preg_replace('/((\w+\W*){20}(\w+))(.*)/', '${1}', strip_tags($item->text))." ...";
             
             $content.= '<h3>'.$item->title.'</h3>
                 <p class="text-justify">'.$output.'</p>';
