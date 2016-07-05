@@ -22,7 +22,15 @@
                                             <?php
                                                 //$detail_url = \luya\helpers\Url::toManager('/news/default/detail', ['id' => $item->id, 'title' => \yii\helpers\Inflector::slug($item->title)]);
                                                 $detail_url = \Yii::$app->request->BaseUrl.'/news/'.$item->id.'/'.\yii\helpers\Inflector::slug($item->title);
-												list($output)=explode("\n",wordwrap(strip_tags($item->text),500),1);
+                                                //list($output)=explode(" ",wordwrap(strip_tags($item->text),50),1);
+                                                $limit = 200;
+            
+                                                //if(strlen($item->text) < $limit) {return $item->text;}
+
+                                                $regex = "/(.{1,$limit})\b/";
+                                                preg_match($regex, $item->text, $matches);                                                
+                                                $output = $matches[1];
+                                                //$output = preg_replace('/\s+?(\S+)?$/', '', substr($item->text, 0, 201));
                                             ?>
                                             <li>
                                             <img src="<?=Yii::$app->storage->getImage($item->image_id)->source;?>" width="80" class="pull-left" alt="" />
