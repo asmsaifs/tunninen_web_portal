@@ -22,11 +22,12 @@
                                             <?php
                                                 //$detail_url = \luya\helpers\Url::toManager('/news/default/detail', ['id' => $item->id, 'title' => \yii\helpers\Inflector::slug($item->title)]);
                                                 $detail_url = \Yii::$app->request->BaseUrl.'/news/'.$item->id.'/'.\yii\helpers\Inflector::slug($item->title);
+												list($output)=explode("\n",wordwrap(strip_tags($item->text),500),1);
                                             ?>
                                             <li>
-                                            <img src="<?=Yii::$app->storage->getImage($item->image_id)->source;?>" class="pull-left" alt="" />
+                                            <img src="<?=Yii::$app->storage->getImage($item->image_id)->source;?>" width="80" class="pull-left" alt="" />
                                             <h6><a href="<?php echo $detail_url; ?>"><?=$item->title?></a></h6>
-                                            <p><?=$item->text;?></p>
+                                            <p><?=$output;?></p>
                                             </li>												
                                             <?php endforeach; ?>												
 					</ul>

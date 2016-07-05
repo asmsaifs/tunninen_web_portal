@@ -17,6 +17,7 @@ use richardfan\widget\JSRegister;
     </div>
 </header>
 <?= $placeholders['content']; ?>
+
 <?php JSRegister::begin(); ?>
 <script>
 var myIndex = 0;

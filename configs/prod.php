@@ -130,11 +130,11 @@ $config = [
          * mail component with the luya console command ./vendor/bin/luya health/mailer.
          */
         'mail' => [
-            'host' => '203.82.207.6',
-            'username' => 'saiful.chowdhury@kdsgroup.net',
-            'password' => 'saiful123',
-            'from' => 'saiful.chowdhury@kdsgroup.net',
-            'fromName' => 'Saiful Islam',
+            'host' => NULL,
+            'username' => NULL,
+            'password' => NULL,
+            'from' => NULL,
+            'fromName' => NULL,
         ],
 
         /*

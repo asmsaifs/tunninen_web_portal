@@ -76,8 +76,17 @@ class NewsBlock extends \cmsadmin\base\Block
             $detail_url = \Yii::$app->request->BaseUrl.'/news/'.$item->id.'/'.\yii\helpers\Inflector::slug($item->title);
             $content.='<div class="col-lg-4 col-sm-6 text-center">
                     <div class="service-box">';
+            //list($output)=explode("\n",wordwrap(strip_tags($item->text),10),1);
+            $limit = 100;
+            
+            //if(strlen($item->text) < $limit) {return $item->text;}
+
+            $regex = "/(.{1,$limit})\b/";
+            preg_match($regex, $item->text, $matches);
+            $output = $matches[1];
+            
             $content.= '<h3>'.$item->title.'</h3>
-                <p class="text-justify">'.$item->text.'</p>';
+                <p class="text-justify">'.$output.'</p>';
             $content.='<a href="'.$detail_url.'" class="btn btn-info btn-xl page-scroll">More</a>
                     </div>
                 </div>';
