@@ -17,7 +17,8 @@
         "luyadev/luya-module-errorapi": "^1.0@beta",
         "luyadev/luya-module-galleryadmin": "^1.0@beta",
         "luyadev/luya-module-gallery": "^1.0@beta",
-        "luyadev/luya-module-exporter": "^1.0@beta"
+        "luyadev/luya-module-exporter": "^1.0@beta",
+        "richardfan1126/yii2-js-register": "*"
     },
     "require-dev": {
         "yiisoft/yii2-gii" : "^2.0",

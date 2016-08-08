@@ -23,6 +23,7 @@ class ResourcesAsset extends \luya\web\Asset
         'js/jquery.easing.min.js',
         'js/wow.min.js',
         'js/creative.js',
+		'js/app.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
