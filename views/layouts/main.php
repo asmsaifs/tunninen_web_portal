@@ -1,5 +1,5 @@
 <?php
-use cms\widgets\LanguageSwitcher;
+//use cms\widgets\LanguageSwitcher;
 ?>
 <?php $this->beginPage(); ?>
 <!DOCTYPE html>
@@ -12,21 +12,7 @@ use cms\widgets\LanguageSwitcher;
         <meta name="author" content="">
         <title><?php echo Yii::$app->siteTitle.": 360&deg; ICT Company";?> &mdash; <?php echo $this->title; ?></title>
         <?php $this->head() ?>
-        <script>
-		$(document).ready(function() {
-  
-  var num = 10; //number of pixels before modifying styles
-
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > num) {
-        $('.navbar-default').addClass('affix-top');
-    } else {
-        $('.navbar-default').removeClass('affix-top');
-    }
-})
-
-});
-        </script>
+        
     </head>
     <body id="page-top">
 
@@ -40,7 +26,8 @@ $(window).bind('scroll', function () {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><?php //echo Yii::$app->siteTitle;?> <img src="img/small_logo_new.png" width="42" height="34" alt="Logo" style="margin-left:12px;"></a><div class="slogan">Tunninen Oy</div>
+                <a class="navbar-brand page-scroll" href="#page-top"><?php //echo Yii::$app->siteTitle;?> 
+                    <img src="<?=\Yii::$app->request->BaseUrl?>/img/small_logo_new.png" width="42" height="34" alt="Logo" style="margin-left:12px;"></a><div class="slogan">Tunninen Oy</div>
             </div>
        <nav class="navbar-default">     
 
@@ -142,10 +129,9 @@ $(window).bind('scroll', function () {
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>IT Tunninen Oy 
+                        <p>Tunninen Oy Finland
 Business ID 2056618-3 
-Huoltopiste Rekolantie 62, 2nd floor, 
-01400 Vantaa</p>
+<br/>Itis Shopping Center Toimistotalo 1|t&auml;katu 1-5, <br/>4th Floor, 00930 Helsinki &nbsp;&nbsp;&nbsp;&nbsp; Finland</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -169,7 +155,7 @@ Huoltopiste Rekolantie 62, 2nd floor,
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>About Tunninen Oy</h3>
-                        <p>Companies comprehensive ICT service solutions for cyber security software solutions. Coordinated systems save costs and make it easier to tiedonsaantia- and distribution. </p>
+                        <p>We offer a range of integrated solutions for business customers, including the secure operation of legacy system and classic ICT services, the transformation to cloud-based services as well as new business fields of the future.</p>
                     </div>
                 </div>
             </div>
