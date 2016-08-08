@@ -59,7 +59,6 @@
 	</div>
   
         <nav class="navbar navbar-default" data-spy="affix" data-offset-top="60">
-        <!--<nav id="mainNav" class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="197">-->
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display navbar-fixed-top-->
             <div class="navbar-header">
