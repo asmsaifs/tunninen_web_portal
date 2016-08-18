@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "26eccb1b4f39dfe6958f04bb48e53357",
-    "content-hash": "c26e3da7e409b02544b97f0f2ec64c6e",
+    "hash": "c70bd4eaef67de5bf9bb3e0b84541a6a",
+    "content-hash": "f6c97cd158359fcfe8fa8322f058398c",
     "packages": [
         {
             "name": "bower-asset/jquery",
@@ -719,16 +719,16 @@
         },
         {
             "name": "luyadev/luya-core",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-core.git",
-                "reference": "f25fb3c2e7fa16d7e501e165a419aa538b50a8b4"
+                "reference": "c606c43c43c79ae62c223799c3ffb74f4630214e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-core/zipball/f25fb3c2e7fa16d7e501e165a419aa538b50a8b4",
-                "reference": "f25fb3c2e7fa16d7e501e165a419aa538b50a8b4",
+                "url": "https://api.github.com/repos/luyadev/luya-core/zipball/c606c43c43c79ae62c223799c3ffb74f4630214e",
+                "reference": "c606c43c43c79ae62c223799c3ffb74f4630214e",
                 "shasum": ""
             },
             "require": {
@@ -736,12 +736,12 @@
                 "php": ">=5.5.0",
                 "phpmailer/phpmailer": "^5.2",
                 "twig/twig": "^1.24",
-                "yiisoft/yii2": "^2.0"
+                "yiisoft/yii2": "2.0.9"
             },
             "bin": [
                 "bin/luya"
             ],
-            "type": "luya-module",
+            "type": "luya-core",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
@@ -772,20 +772,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-06-20 07:47:29"
+            "time": "2016-08-11 12:58:32"
         },
         {
             "name": "luyadev/luya-module-admin",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-admin.git",
-                "reference": "58b95d237914c564a2771ee75bb646a10d2bb25f"
+                "reference": "5093cf2b2232c56132ce189bbc8abc1b35db6d42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-admin/zipball/58b95d237914c564a2771ee75bb646a10d2bb25f",
-                "reference": "58b95d237914c564a2771ee75bb646a10d2bb25f",
+                "url": "https://api.github.com/repos/luyadev/luya-module-admin/zipball/5093cf2b2232c56132ce189bbc8abc1b35db6d42",
+                "reference": "5093cf2b2232c56132ce189bbc8abc1b35db6d42",
                 "shasum": ""
             },
             "require": {
@@ -798,7 +798,7 @@
                 "phpunit/phpunit": "~5.0",
                 "satooshi/php-coveralls": "~1.0"
             },
-            "type": "luya-module",
+            "type": "luya-core",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
@@ -836,20 +836,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-06-17 19:57:21"
+            "time": "2016-08-11 12:09:20"
         },
         {
             "name": "luyadev/luya-module-cms",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-cms.git",
-                "reference": "13721a7d079588922c4d146b572d89f55cbea0c9"
+                "reference": "938437c9423d6949e1f23cbaf80a948064bb10a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-cms/zipball/13721a7d079588922c4d146b572d89f55cbea0c9",
-                "reference": "13721a7d079588922c4d146b572d89f55cbea0c9",
+                "url": "https://api.github.com/repos/luyadev/luya-module-cms/zipball/938437c9423d6949e1f23cbaf80a948064bb10a6",
+                "reference": "938437c9423d6949e1f23cbaf80a948064bb10a6",
                 "shasum": ""
             },
             "require-dev": {
@@ -857,7 +857,7 @@
                 "phpunit/phpunit": "~5.0",
                 "satooshi/php-coveralls": "~1.0"
             },
-            "type": "luya-module",
+            "type": "luya-core",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
@@ -892,23 +892,23 @@
                 "yii2",
                 "yii2-cms"
             ],
-            "time": "2016-06-14 11:51:18"
+            "time": "2016-08-11 12:24:20"
         },
         {
             "name": "luyadev/luya-module-cmsadmin",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-cmsadmin.git",
-                "reference": "26066ef0289ed7e68e35fb4a8a926ab935a9a9cc"
+                "reference": "ad3a441993299a05c446d44f5c65227b827af3c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-cmsadmin/zipball/26066ef0289ed7e68e35fb4a8a926ab935a9a9cc",
-                "reference": "26066ef0289ed7e68e35fb4a8a926ab935a9a9cc",
+                "url": "https://api.github.com/repos/luyadev/luya-module-cmsadmin/zipball/ad3a441993299a05c446d44f5c65227b827af3c2",
+                "reference": "ad3a441993299a05c446d44f5c65227b827af3c2",
                 "shasum": ""
             },
-            "type": "luya-module",
+            "type": "luya-core",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
@@ -943,7 +943,7 @@
                 "yii2-cms",
                 "yii2-cmsadmin"
             ],
-            "time": "2016-06-17 12:15:58"
+            "time": "2016-08-11 13:43:54"
         },
         {
             "name": "luyadev/luya-module-contactform",
@@ -1000,16 +1000,16 @@
         },
         {
             "name": "luyadev/luya-module-crawler",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-crawler.git",
-                "reference": "c468b82db05c45b659e2aead6d65fee79a321fc5"
+                "reference": "71ee6237e502e54df0696d185e4057daaf21e512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-crawler/zipball/c468b82db05c45b659e2aead6d65fee79a321fc5",
-                "reference": "c468b82db05c45b659e2aead6d65fee79a321fc5",
+                "url": "https://api.github.com/repos/luyadev/luya-module-crawler/zipball/71ee6237e502e54df0696d185e4057daaf21e512",
+                "reference": "71ee6237e502e54df0696d185e4057daaf21e512",
                 "shasum": ""
             },
             "require": {
@@ -1051,23 +1051,23 @@
                 "yii2",
                 "yii2-pagecrawler"
             ],
-            "time": "2016-06-14 11:51:18"
+            "time": "2016-07-28 06:57:22"
         },
         {
             "name": "luyadev/luya-module-crawleradmin",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-crawleradmin.git",
-                "reference": "af6cadfcf444aab6b711daf749cd3364201f84ac"
+                "reference": "802b4f2b6b1f9fea5d8b94e583b2cc7f293eabb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-crawleradmin/zipball/af6cadfcf444aab6b711daf749cd3364201f84ac",
-                "reference": "af6cadfcf444aab6b711daf749cd3364201f84ac",
+                "url": "https://api.github.com/repos/luyadev/luya-module-crawleradmin/zipball/802b4f2b6b1f9fea5d8b94e583b2cc7f293eabb9",
+                "reference": "802b4f2b6b1f9fea5d8b94e583b2cc7f293eabb9",
                 "shasum": ""
             },
-            "type": "luya-module",
+            "type": "luya-crawler",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
@@ -1100,11 +1100,11 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-06-17 12:15:58"
+            "time": "2016-07-07 12:53:27"
         },
         {
             "name": "luyadev/luya-module-errorapi",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-errorapi.git",
@@ -1153,16 +1153,16 @@
         },
         {
             "name": "luyadev/luya-module-exporter",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-exporter.git",
-                "reference": "f934f258f82c1a76230076938bc74aeee8c50b3b"
+                "reference": "163a008f13282e5ba17fc5bd37d4b0b8eaffcff9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-exporter/zipball/f934f258f82c1a76230076938bc74aeee8c50b3b",
-                "reference": "f934f258f82c1a76230076938bc74aeee8c50b3b",
+                "url": "https://api.github.com/repos/luyadev/luya-module-exporter/zipball/163a008f13282e5ba17fc5bd37d4b0b8eaffcff9",
+                "reference": "163a008f13282e5ba17fc5bd37d4b0b8eaffcff9",
                 "shasum": ""
             },
             "require": {
@@ -1206,20 +1206,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-06-14 11:51:18"
+            "time": "2016-08-02 07:28:08"
         },
         {
             "name": "luyadev/luya-module-gallery",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-gallery.git",
-                "reference": "f4d4e83cd435ec45bbf23a2b4253c37637259533"
+                "reference": "dd3f31c172d4e68b673d2955144207ceed65a6aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-gallery/zipball/f4d4e83cd435ec45bbf23a2b4253c37637259533",
-                "reference": "f4d4e83cd435ec45bbf23a2b4253c37637259533",
+                "url": "https://api.github.com/repos/luyadev/luya-module-gallery/zipball/dd3f31c172d4e68b673d2955144207ceed65a6aa",
+                "reference": "dd3f31c172d4e68b673d2955144207ceed65a6aa",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1255,23 +1255,23 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-06-14 11:51:18"
+            "time": "2016-07-07 12:53:27"
         },
         {
             "name": "luyadev/luya-module-galleryadmin",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-galleryadmin.git",
-                "reference": "4411f68dfcf38850b2da14c14f546f781227f253"
+                "reference": "0782c5cabf9b8f338543ca2a13ed907850a979e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-galleryadmin/zipball/4411f68dfcf38850b2da14c14f546f781227f253",
-                "reference": "4411f68dfcf38850b2da14c14f546f781227f253",
+                "url": "https://api.github.com/repos/luyadev/luya-module-galleryadmin/zipball/0782c5cabf9b8f338543ca2a13ed907850a979e3",
+                "reference": "0782c5cabf9b8f338543ca2a13ed907850a979e3",
                 "shasum": ""
             },
-            "type": "luya-module",
+            "type": "luya-gallery",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
@@ -1304,20 +1304,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-06-17 12:15:58"
+            "time": "2016-07-07 12:53:27"
         },
         {
             "name": "luyadev/luya-module-news",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-news.git",
-                "reference": "5678b380b6033bec5f153b8d8eb086387feb3ad8"
+                "reference": "6d6651863b6aaf808151ca55b62131973846d7c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-news/zipball/5678b380b6033bec5f153b8d8eb086387feb3ad8",
-                "reference": "5678b380b6033bec5f153b8d8eb086387feb3ad8",
+                "url": "https://api.github.com/repos/luyadev/luya-module-news/zipball/6d6651863b6aaf808151ca55b62131973846d7c8",
+                "reference": "6d6651863b6aaf808151ca55b62131973846d7c8",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1353,23 +1353,23 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-06-14 11:51:18"
+            "time": "2016-07-05 13:30:47"
         },
         {
             "name": "luyadev/luya-module-newsadmin",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-newsadmin.git",
-                "reference": "ca19067f4a93b0528174584fa1bc67ab1052fa15"
+                "reference": "827276103d6a394ba6333915e87e442bd4cc2dae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-newsadmin/zipball/ca19067f4a93b0528174584fa1bc67ab1052fa15",
-                "reference": "ca19067f4a93b0528174584fa1bc67ab1052fa15",
+                "url": "https://api.github.com/repos/luyadev/luya-module-newsadmin/zipball/827276103d6a394ba6333915e87e442bd4cc2dae",
+                "reference": "827276103d6a394ba6333915e87e442bd4cc2dae",
                 "shasum": ""
             },
-            "type": "luya-module",
+            "type": "luya-news",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
@@ -1402,20 +1402,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-06-17 12:15:58"
+            "time": "2016-07-06 15:03:09"
         },
         {
             "name": "luyadev/luya-module-styleguide",
-            "version": "1.0.0-beta7",
+            "version": "1.0.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-styleguide.git",
-                "reference": "3dfd89e60fa0416fa10b4f2aeb7bdfd72b4aa2f8"
+                "reference": "197c0889c41902f134636f09de97624831f06a85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-styleguide/zipball/3dfd89e60fa0416fa10b4f2aeb7bdfd72b4aa2f8",
-                "reference": "3dfd89e60fa0416fa10b4f2aeb7bdfd72b4aa2f8",
+                "url": "https://api.github.com/repos/luyadev/luya-module-styleguide/zipball/197c0889c41902f134636f09de97624831f06a85",
+                "reference": "197c0889c41902f134636f09de97624831f06a85",
                 "shasum": ""
             },
             "type": "luya-module",
@@ -1451,7 +1451,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2016-06-01 08:40:01"
+            "time": "2016-07-04 11:02:02"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -1515,16 +1515,16 @@
         },
         {
             "name": "psr/http-message",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
             "require": {
@@ -1552,6 +1552,7 @@
                 }
             ],
             "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
             "keywords": [
                 "http",
                 "http-message",
@@ -1560,7 +1561,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-05-04 20:22:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "richardfan1126/yii2-js-register",
@@ -1607,16 +1608,16 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
-                "reference": "dcf41ed026b0499254385b5c88f03247b2ba010b"
+                "reference": "d2a07cc11c5fa94820240b1e67592ffb18e347b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/dcf41ed026b0499254385b5c88f03247b2ba010b",
-                "reference": "dcf41ed026b0499254385b5c88f03247b2ba010b",
+                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/d2a07cc11c5fa94820240b1e67592ffb18e347b9",
+                "reference": "d2a07cc11c5fa94820240b1e67592ffb18e347b9",
                 "shasum": ""
             },
             "require": {
@@ -1660,11 +1661,11 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-29 05:41:56"
+            "time": "2016-07-26 08:04:17"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -1717,16 +1718,16 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "99ec4a23330fcd0c8667095f3ef7aa204ffd9dc0"
+                "reference": "c7b9b8db3a6f2bac76dcd9a9db5446f2591897f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/99ec4a23330fcd0c8667095f3ef7aa204ffd9dc0",
-                "reference": "99ec4a23330fcd0c8667095f3ef7aa204ffd9dc0",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/c7b9b8db3a6f2bac76dcd9a9db5446f2591897f9",
+                "reference": "c7b9b8db3a6f2bac76dcd9a9db5446f2591897f9",
                 "shasum": ""
             },
             "require": {
@@ -1769,7 +1770,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-29 05:41:56"
+            "time": "2016-07-26 08:04:17"
         },
         {
             "name": "symfony/polyfill-mbstring",
