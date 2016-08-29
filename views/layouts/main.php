@@ -128,9 +128,9 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>Tunninen Oy Finland
-Business ID 2056618-3 
-<br/>Itis Shopping Center Toimistotalo 1|t&auml;katu 1-5, <br/>4th Floor, 00930 Helsinki &nbsp;&nbsp;&nbsp;&nbsp; Finland</p>
+                        <p style="text-align:left">Tunninen Oy Finland</br>
+Itis Shopping Center Toimistotalo 1</br> 
+It&auml;katu 1-5, 4th Floor, 00930 Helsinki Finland</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
