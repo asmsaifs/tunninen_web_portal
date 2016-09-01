@@ -37,6 +37,11 @@ function carousel() {
 
 
 var myIndex2 = 0;
+var myIndex3 = 0;
+var myIndex4 = 0;
+var myIndex5 = 0;
+var myIndex6 = 0;
+var myIndex7 = 0;
 carousel2();
 
 function carousel2() {
@@ -48,32 +53,53 @@ function carousel2() {
 	var x4 = document.getElementsByClassName("recentWork5");
 	var x5 = document.getElementsByClassName("recentWork6");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-	   x1[i].style.display = "none";
-	   x2[i].style.display = "none";
-	   x3[i].style.display = "none";
-	   x4[i].style.display = "none";
-	   x5[i].style.display = "none";
+       x[i].style.display = "none";	   
+    }
+	
+	for (i = 0; i < x1.length; i++) {       
+	   x1[i].style.display = "none";	   
+    }
+	
+	for (i = 0; i < x2.length; i++) {       
+	   x2[i].style.display = "none";	   
+    }
+	
+	for (i = 0; i < x3.length; i++) {       
+	   x3[i].style.display = "none";	   
+    }
+	
+	for (i = 0; i < x4.length; i++) {       
+	   x4[i].style.display = "none";	   
+    }
+	
+	for (i = 0; i < x5.length; i++) {       
+	   x5[i].style.display = "none";	   
     }
 	
     myIndex2++;
+	myIndex3++;
+	myIndex4++;
+	myIndex5++;
+	myIndex6++;
+	myIndex7++;
+	
     if (myIndex2 > x.length) {myIndex2 = 1}
     x[myIndex2-1].style.display = "block";
 	
-	if (myIndex2 > x1.length) {myIndex2 = 1}
-    x1[myIndex2-1].style.display = "block";
+	if (myIndex3 > x1.length) {myIndex3 = 1}
+    x1[myIndex3-1].style.display = "block";
 	
-	if (myIndex2 > x2.length) {myIndex2 = 1}
-    x2[myIndex2-1].style.display = "block";
+	if (myIndex4 > x2.length) {myIndex4 = 1}
+    x2[myIndex4-1].style.display = "block";
 	
-	if (myIndex2 > x3.length) {myIndex2 = 1}
-    x3[myIndex2-1].style.display = "block";
+	if (myIndex5 > x3.length) {myIndex5 = 1}
+    x3[myIndex5-1].style.display = "block";
 	
-	if (myIndex2 > x4.length) {myIndex2 = 1}
-    x4[myIndex2-1].style.display = "block";
+	if (myIndex6 > x4.length) {myIndex6 = 1}
+    x4[myIndex6-1].style.display = "block";
 	
-	if (myIndex2 > x5.length) {myIndex2 = 1}
-    x5[myIndex2-1].style.display = "block";
+	if (myIndex7 > x5.length) {myIndex7 = 1}
+    x5[myIndex7-1].style.display = "block";
     setTimeout(carousel2, 3000); // Change image every 2 seconds
 }
 
