@@ -128,7 +128,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p style="text-align:left">Tunninen Oy Finland</br>
+                        <p>Tunninen Oy Finland</br>
 Itis Shopping Center Toimistotalo 1</br> 
 It&auml;katu 1-5, 4th Floor, 00930 Helsinki Finland</p>
                     </div>
