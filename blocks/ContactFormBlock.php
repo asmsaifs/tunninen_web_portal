@@ -134,7 +134,7 @@ class ContactFormBlock extends \cmsadmin\base\Block
     /**
      * @todo: add prefix to encapsulate block ids
      */
-    public function twigFrontend()
+    public function Frontend()
     {
         return  '<article> <div class="post-image">'.
                 '<div class="post-heading">'.                                
